@@ -10,7 +10,7 @@ namespace OOP_2
     {
         private int Id;
         private string Name;
-        public decimal salary;
+        private decimal salary;
 
 
         public Employee( int _id , string _name , decimal _salary )
@@ -31,6 +31,21 @@ namespace OOP_2
         public string GetName ()
         {
             return Name ;
+        }
+
+        //full time property 
+
+        public decimal Salary {
+
+            get 
+                {  return salary; }
+
+            set
+            { 
+                //add validation
+                salary = value > 1000 ? value : 1000;
+            }
+        
         }
 
 

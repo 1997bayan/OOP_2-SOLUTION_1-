@@ -10,6 +10,13 @@
             emp.SetName("Bayan");
 
             Console.WriteLine(emp.GetName());
+
+
+
+            //Full time proprrty
+
+            emp.Salary = 2000;
+            Console.WriteLine(emp.Salary);
         }
     }
 }
