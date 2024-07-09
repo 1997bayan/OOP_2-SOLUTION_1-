@@ -47,6 +47,11 @@ namespace OOP_2
             }
         
         }
+        //Automatic property
+        public int Aga { get; set; }
+        public decimal dedaction  { get => salary * 0.1M; }
+
+
 
 
     }

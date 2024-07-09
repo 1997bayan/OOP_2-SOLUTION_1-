@@ -17,6 +17,9 @@
 
             emp.Salary = 2000;
             Console.WriteLine(emp.Salary);
+
+            decimal ded = emp.dedaction;
+            Console.WriteLine(ded);
         }
     }
 }
