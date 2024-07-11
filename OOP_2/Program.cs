@@ -1,4 +1,5 @@
-﻿using System.Security.Cryptography;
+﻿using OOP_2.Inherticance;
+using System.Security.Cryptography;
 
 namespace OOP_2
 {
@@ -47,9 +48,31 @@ namespace OOP_2
             #endregion
 
 
+            #region class
             Car car1;
-            car1 = new Car(5 , "BMW");
+            car1 = new Car(5, "BMW");
 
+            #endregion
+
+            #region  Inhertiacne
+
+            Parent p1 = new Parent(1,2);
+            Console.WriteLine("Parent"); 
+            Console.WriteLine(p1.product());
+            Console.WriteLine(p1.ToString());
+            Console.WriteLine("Child");
+
+            Child ch1 = new Child(4,55,66);
+            Console.WriteLine(ch1.product());
+            Console.WriteLine(ch1.ToString());
+
+            //inhertance is a single inhertance ,in c# there is no multiple inhertance
+
+
+
+
+
+            #endregion
 
 
         }
