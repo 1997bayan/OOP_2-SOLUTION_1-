@@ -12,7 +12,8 @@ namespace OOP_2.Inherticance
         public int Z { get; set; }
 
 
-        public Child(int _x , int _y ,int z) :base ( _x , _y)//the compiler do chain with child condtructor and parent parmeterless condtructor but there is no  parmeterless condtructor in parent class
+        public Child(int _x , int _y ,int z) :base ( _x , _y)//the compiler do chain with child condtructor and parent parmeterless condtructor but there
+                                                             //is no  parmeterless condtructor in parent class
                                              //So there is an error if we dont use condtructor chaining and we need use :base() 
         {
             X = _x;

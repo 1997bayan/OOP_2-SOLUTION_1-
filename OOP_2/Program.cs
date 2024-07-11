@@ -1,4 +1,5 @@
-﻿using OOP_2.Inherticance;
+﻿using common;
+using OOP_2.Inherticance;
 using System.Security.Cryptography;
 
 namespace OOP_2
@@ -68,9 +69,15 @@ namespace OOP_2
 
             //inhertance is a single inhertance ,in c# there is no multiple inhertance
 
+            TypeB objB = new TypeB();
+            // ObjB.X = 10; // Invalid [Private]
+            // ObjB.Y = 20; // Invalid [Private]
+            // ObjB.Z = 30; // Invalid [Internal]
 
-
-
+            TypeC OBJC = new TypeC();
+            //OBJC.X = 8; // Invalid X IS NOT inherted 
+            //OBJC.Y = 8; // Invalid [Private]
+            // OBJC.Z = 8; // Invalid [Private]
 
             #endregion
 
