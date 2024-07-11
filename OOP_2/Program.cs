@@ -38,18 +38,17 @@ namespace OOP_2
             #region Indexer property
             c1["Bayan"] = 101001;
             Console.WriteLine(c1["Bayan"]);
-            #endregion
-
             for (int i = 0; i < c1.Size; i++)
             {
 
                 Console.WriteLine(c1[i]);
 
-
-
-
             }
+            #endregion
 
+
+            Car car1;
+            car1 = new Car(5 , "BMW");
 
 
 
