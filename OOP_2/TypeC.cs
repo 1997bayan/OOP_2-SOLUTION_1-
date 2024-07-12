@@ -14,4 +14,4 @@ namespace OOP_2
             Y = 18 ;// Y is Protected => Is Inherited As Private
             Z = 30; // Z is internal Protected => Is Inherited Private
     }
-}
+} 
