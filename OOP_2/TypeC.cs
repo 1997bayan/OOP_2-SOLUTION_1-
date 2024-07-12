@@ -11,7 +11,7 @@ namespace OOP_2
     {
             // M = 10; // Invalid [Not Inherited]
             // X = 10; // Invalid -> X is Private Protected => Not Inherited
-            Y = 18 ;// Y is Protected => Is Inherited As Private
-            Z = 30; // Z is internal Protected => Is Inherited Private
+            //Y = 18 ;// Y is Protected => Is Inherited As Private
+           // Z = 30; // Z is internal Protected => Is Inherited Private
     }
 } 
